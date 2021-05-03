@@ -12,7 +12,11 @@
 <body>
     <div class="content-box">
         <h1 id="sub-title">Simple Counter</h1>
-        <h2 id="main-counter">0</h2>
+        <div class="counter-div">
+            <h2 id="main-counter">0</h2>
+        </div>
+        <input type="range" value="1" name="increment-by" id="range-in" min="1" max="500">
+        <output id="range-out"></output>
         <div class="button-box">
             <button class="btn" id="inc">Increment</button>
             <button class="btn" id="res">Reset Counter</button>

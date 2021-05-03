@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Orbitron&display=swap');
 body{
     margin: 0;
     border: 0;
@@ -12,9 +13,19 @@ body{
     flex-direction: column;
     padding: 30px;
     text-align: center;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 20px;
     position: relative; top: 95px; left: 280px;
+}
+#main-counter{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 45px;
+}
+#sub-title{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .button-box{
     display: flex;
@@ -52,4 +63,22 @@ body{
 }
 #inc:active, #res:active, #dec:active{
     transform: scale3d(0.95, 0.95, 0.95);
+}
+.dec-red{
+    color: red;
+}
+.dec-green{
+    color: rgb(3, 216, 3);
+}
+.counter-div{
+    transition: 0.2s;
+}
+#range-out{
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+#range-in{
+    width: 350px;
 }
